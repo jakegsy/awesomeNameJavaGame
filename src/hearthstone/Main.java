@@ -1,4 +1,5 @@
 package hearthstone;
+import hearthstone.model.Creature;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -14,6 +15,9 @@ public class Main extends Application implements EventHandler<ActionEvent>{
     Scene scene1, scene2;
 
     public static void main(String[] args) {
+
+        Creature creature = new Creature("Jake",10,10,100);
+        System.out.println(creature);
         launch(args);
     }
 
