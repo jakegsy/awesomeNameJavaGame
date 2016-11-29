@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1019.0" prefWidth="1964.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="673.0" prefWidth="1802.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="1576.0">
+               <children>
+                  <HBox layoutX="535.0" layoutY="103.0" prefHeight="283.0" prefWidth="1411.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                  <Button mnemonicParsing="false" text="Attack" />
+                                </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="207.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="207.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="601.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="404.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1586.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="272.0" prefWidth="1800.0">
+               <children>
+                  <HBox prefHeight="283.0" prefWidth="1800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Attack" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                  <Button mnemonicParsing="false" text="Choose" />
+                                </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="404.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="601.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="798.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="995.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1192.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1389.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1389.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                           <children>
+                              <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                                 <buttons>
+                                    <HBox prefHeight="40.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                          <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                    <Button mnemonicParsing="false" text="Choose" />
+                                 </buttons>
+                              </ButtonBar>
+                              <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                 <items>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                       </children>
+                                    </AnchorPane>
+                                 </items>
+                              </SplitPane>
+                              <Label layoutX="18.0" layoutY="230.0" text="HP">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="197.0" style="-fx-border-color: black; -fx-background-color: orange;">
+                     <children>
+                        <ButtonBar layoutX="-13.0" layoutY="247.0" prefHeight="40.0" prefWidth="200.0">
+                          <buttons>
+                              <HBox prefHeight="40.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: LIghtGreen; -fx-border-color: black;">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: Pink; -fx-border-color: black;">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="43.0" text="Label" />
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                            <Button mnemonicParsing="false" text="Choose" />
+                          </buttons>
+                        </ButtonBar>
+                        <SplitPane dividerPositions="0.5" layoutX="19.0" layoutY="30.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="158.0" text="Card Name" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                 <children>
+                                    <Label alignment="CENTER" layoutY="1.0" prefHeight="95.0" prefWidth="158.0" text="Card Effect" />
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                        <Label layoutX="18.0" layoutY="230.0" text="HP">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="55.0" layoutY="230.0" text="ATK">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="120.0" layoutY="6.0" prefHeight="25.0" prefWidth="36.0" text="COST:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="3.0" prefHeight="31.0" prefWidth="43.0" text="Label" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+   <bottom>
+      <SplitPane dividerPositions="0.29944444444444446" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <HBox layoutX="137.0" layoutY="20.0" prefHeight="158.0" prefWidth="560.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox prefHeight="158.0" prefWidth="189.0">
+                           <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-5.0" layoutY="-14.0" prefHeight="86.0" prefWidth="191.0" text="Player 1">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutY="61.0" prefHeight="17.0" prefWidth="90.0" style="-fx-border-color: black;" text="HP">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="90.0" layoutY="61.0" prefHeight="17.0" prefWidth="90.0" style="-fx-border-color: black;" text="MANA">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <HBox prefHeight="79.0" prefWidth="187.0">
+                                       <children>
+                                          <Pane prefHeight="104.0" prefWidth="90.0" style="-fx-background-color: LightGreen;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="81.0" prefWidth="90.0" style="-fx-background-color: red;" text="30" textFill="WHITE">
+                                                   <font>
+                                                      <Font size="60.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Pane layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="90.0" style="-fx-background-color: Blue;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="81.0" prefWidth="90.0" style="-fx-background-color: blue;" text="0" textFill="WHITE">
+                                                   <font>
+                                                      <Font size="60.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                        <GridPane prefHeight="161.0" prefWidth="196.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label alignment="CENTER" prefHeight="70.0" prefWidth="120.0" text="Mana Rate">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="120.0" text="0" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="10.0" prefHeight="70.0" prefWidth="120.0" text="30" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="63.0" prefHeight="70.0" prefWidth="120.0" text="Cards in Deck" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="63.0" prefHeight="70.0" prefWidth="120.0" text="Cards in Grave" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="116.0" prefHeight="70.0" prefWidth="120.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                        <VBox prefHeight="158.0" prefWidth="176.0">
+                           <children>
+                              <Pane prefHeight="84.0" prefWidth="176.0">
+                                 <children>
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="174.0" style="-fx-background-color: yellow;" text="Your Turn">
+                                       <font>
+                                          <Font size="33.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <HBox prefHeight="76.0" prefWidth="176.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <ButtonBar layoutX="28.0" layoutY="-1.0" prefHeight="75.0" prefWidth="100.0">
+                                             <buttons>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="67.0" prefWidth="162.0" text="End Turn" wrapText="true">
+                                                   <font>
+                                                      <Font size="18.0" />
+                                                   </font>
+                                                </Button>
+                                                <Pane prefHeight="200.0" prefWidth="200.0" />
+                                             </buttons>
+                                          </ButtonBar>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <HBox layoutX="503.0" layoutY="29.0" prefHeight="158.0" prefWidth="1258.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="196.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutY="1.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutX="3.0" layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutX="3.0" layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutX="3.0" layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutX="3.0" layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutX="3.0" layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                        <Pane layoutX="410.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;">
+                           <children>
+                              <VBox layoutY="2.0" prefHeight="155.0" prefWidth="191.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label alignment="CENTER" prefHeight="55.0" prefWidth="192.0" text="NAME" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="191.0">
+                                       <children>
+                                          <Label layoutX="-4.0" layoutY="-2.0" prefHeight="55.0" prefWidth="44.0" text="  TYPE:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="See Card" />
+                                          <Label alignment="CENTER" layoutX="38.0" layoutY="2.0" prefHeight="46.0" prefWidth="79.0" text="Creature">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Button layoutX="125.0" layoutY="14.0" mnemonicParsing="false" text="Deploy" />
+                                          <Label layoutX="3.0" prefHeight="52.0" prefWidth="58.0" text="COST:">
+                                             <font>
+                                                <Font name="System Bold" size="12.0" />
+                                             </font>
+                                          </Label>
+                                          <Label alignment="CENTER" layoutX="46.0" layoutY="-9.0" prefHeight="55.0" prefWidth="60.0" text="10">
+                                             <font>
+                                                <Font size="47.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </VBox>
+                           </children></Pane>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </bottom>
+   <top>
+      <SplitPane dividerPositions="0.700531914893617" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="1109.0">
+               <children>
+                  <HBox prefHeight="158.0" prefWidth="1313.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                        <Pane layoutX="410.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: black;" />
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="158.0" prefWidth="462.0">
+               <children>
+                  <HBox layoutX="137.0" layoutY="20.0" prefHeight="158.0" prefWidth="560.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox prefHeight="158.0" prefWidth="189.0">
+                           <children>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="-5.0" layoutY="-14.0" prefHeight="86.0" prefWidth="191.0" text="Player 2">
+                                       <font>
+                                          <Font size="29.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutY="61.0" prefHeight="17.0" prefWidth="90.0" style="-fx-border-color: black;" text="HP">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label alignment="CENTER" layoutX="90.0" layoutY="61.0" prefHeight="17.0" prefWidth="90.0" style="-fx-border-color: black;" text="MANA">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Pane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <HBox prefHeight="79.0" prefWidth="187.0">
+                                       <children>
+                                          <Pane prefHeight="104.0" prefWidth="90.0" style="-fx-background-color: LightGreen;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="81.0" prefWidth="90.0" style="-fx-background-color: red;" text="30" textFill="WHITE">
+                                                   <font>
+                                                      <Font size="60.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                          <Pane layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="90.0" style="-fx-background-color: Blue;">
+                                             <children>
+                                                <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="81.0" prefWidth="90.0" style="-fx-background-color: blue;" text="0" textFill="WHITE">
+                                                   <font>
+                                                      <Font size="60.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                        <GridPane prefHeight="161.0" prefWidth="196.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label alignment="CENTER" prefHeight="70.0" prefWidth="120.0" text="Mana Rate">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="120.0" text="0" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="108.0" layoutY="10.0" prefHeight="70.0" prefWidth="120.0" text="30" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="63.0" prefHeight="70.0" prefWidth="120.0" text="Cards in Deck" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="63.0" prefHeight="70.0" prefWidth="120.0" text="Cards in Grave" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="116.0" prefHeight="70.0" prefWidth="120.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                        <VBox prefHeight="158.0" prefWidth="176.0">
+                           <children>
+                              <Pane prefHeight="84.0" prefWidth="176.0">
+                                 <children>
+                                    <Button layoutX="24.0" layoutY="17.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="130.0" text="LOAD DECKS" />
+                                 </children></Pane>
+                              <HBox prefHeight="76.0" prefWidth="176.0">
+                                 <children>
+                                    <Pane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <ButtonBar layoutX="28.0" layoutY="-1.0" prefHeight="75.0" prefWidth="100.0">
+                                             <buttons>
+                                                <Pane prefHeight="200.0" prefWidth="200.0">
+                                                   <children>
+                                                      <Button layoutX="-13.0" layoutY="3.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="130.0" text="EXIT" />
+                                                   </children></Pane>
+                                             </buttons>
+                                          </ButtonBar>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </top>
+</BorderPane>

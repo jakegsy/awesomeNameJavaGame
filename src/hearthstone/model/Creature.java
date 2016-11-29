@@ -1,23 +1,29 @@
 package hearthstone.model;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 
 public class Creature extends Card {
 
-    private int ATK;
-    private int HP;
+    private IntegerProperty ATK;
+    private IntegerProperty HP;
 
     public Creature(String name, int cost, int ATK, int HP){
         super(name,"Creature",cost);
-        this.ATK = ATK;
-        this.HP = HP;
+        this.ATK = new SimpleIntegerProperty(ATK);
+        this.HP = new SimpleIntegerProperty(HP);
     }
 
-    public int getATK() {
+    public IntegerProperty getATK() {
         return ATK;
     }
 
-    public int getHP() {
+    public IntegerProperty getHP() {
         return HP;
     }
+
+    public StringProperty getName() {return super.getName();}
 
     @Override
     public String toString(){

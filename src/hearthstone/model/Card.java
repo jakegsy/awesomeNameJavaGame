@@ -1,5 +1,8 @@
 package hearthstone.model;
-
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+import javafx.beans.property.SimpleIntegerProperty;
 public class Card {
 
     enum CardType{
@@ -17,25 +20,25 @@ public class Card {
         }
     }
 
-    private String name;
+    private StringProperty name;
     private CardType cardType;
-    private int cost;
+    private IntegerProperty cost;
 
     public Card(String name, String cardType, int cost){
-        this.name = name;
+        this.name = new SimpleStringProperty(name);
         this.cardType = CardType.valueOf(cardType);
-        this.cost = cost;
+        this.cost = new SimpleIntegerProperty(cost);
     }
 
     public CardType getCardType() {
         return cardType;
     }
 
-    public String getName() {
+    public StringProperty getName() {
         return name;
     }
 
-    public int getCost() {
+    public IntegerProperty getCost() {
         return cost;
     }
 
